@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="img/strava.svg"></i>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+</head>
+<body>
+<header>
+    <h2 class="logo"><a href="#">Logo</a></h2>
+
+        <div class="navigat">
+
+            <a class="nav-list" href="#">Home</a>
+            <a class="nav-list" href="#skills" >Skills</a>
+            <a class="nav-list" href="#projects" >projects</a>
+            <a class="nav-list" href="#contact" >Contact</a>
+
+        </div>
+</header> 
+    <section>
+    <div class="main" id="main" onload="slide()">
+        
+    <div class="portfolio"><h2> Hello <span>,</span> i'm mohamed gamal </h2>
+    <h3>i working as <span id="title"></span></h3></div>
+    <a class="main-btn" href="#projects">view my work</a>
+    <div class="social">
+    <a class="main-social" href="http:www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+    <a class="main-social" href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+    <a class="main-social" href="https://github.com"><i class="fa-brands fa-github"></i></a>
+    <a class="main-social" href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    </div>
+    </section>
+    <h2 id="skills" class="skills">My Skills</h2>
+    <section class="container">
+        <div class="card"><h3>Html <i class="fab fa-html5"></i></h3><p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p></div>
+        <div class="card"><h3>css <i class="fab fa-css3"></i></h3><p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML</p></div>
+        <div class="card"><h3>bootstrap <i class="fab fa-bootstrap"></i></h3><p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</p></div>
+        <div class="card"><h3>javascript <i class="fab fa-js"></i></h3><p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages</p></div>
+        <div class="card"><h3> sass <i class="fab fa-sass"></i></h3><p>Sass is an extension of CSS. Style sheet languages control where and how text appears on a webpage, from frame size and color to menu positions.</p></div>
+        <div class="card"><h3> word press <i class="fa-brands fa-wordpress"></i></h3><p>WordPress is a free and open-source content management system (CMS) written in PHP and paired with a MySQL or MariaDB database with supported HTTPS.</p></div>
+
+    </section>
+    <h2 id="projects" class="skills">projects</h2>
+    <section class="container">
+        <div class="card"><h3>Html<i class="fab fa-html5"></i></h3><p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p></div>
+        <div class="card"><h3>css<i class="fab fa-css3"></i></h3><p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML</p></div>
+        <div class="card"><h3>bootstrap <i class="fab fa-bootstrap"></i></h3><p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</p></div>
+        <div class="card"><h3>javascript <i class="fab fa-js"></i></h3><p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages</p></div>
+        <div class="card"><h3> sass <i class="fa-brands fa-sass"></i></h3><p>Sass is an extension of CSS. Style sheet languages control where and how text appears on a webpage, from frame size and color to menu positions.</p></div>
+    </section>
+    <section id="contact">
+    <div class="contact">
+    <form target="_blank">
+        <h3 class="form-h3">  <i class="fa-solid fa-address-card"></i> Contact Us </h3>
+       <input title=" write your name ..." type="text" maxlength="20" placeholder="Full Name : " required/>
+        <input title="write your email ..." type="email"  maxlength="26"placeholder="Email : " required/>
+        <textarea cols="50" rows="10" placeholder=" write something here ...." required ></textarea><br>
+        <Input class="submit" type="submit"  value="submit"/>
+
+    </form>
+
+    </div>
+        
+    <button style="background-color:#eee; display:inline-block; border-radius: 6px; padding: 4px 8px ; border: 1px solid #eee; box-shadow: 4px 4px 4px rgb(202, 199, 199); font-size: 2.5em;" onclick="up()" class="fa-solid fa-angle-up"></button>
+
+    </section>
+    <footer id="foot">
+        <div><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i>facebook </a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i>twitter</a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i>linkedin</a>
+            <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i>github</a>
+        </div>
+        <div id="copy-right">all copy right reserved for owner &copy 2022</div>
+    </footer>
+    <script src="https://kit.fontawesome.com/64e6f40184.js"></script>
+    <script src="js/writer.js"></script>
+    <script src="js/main.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</body>
+</html>
